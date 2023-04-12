@@ -70,6 +70,8 @@ input[type="radio"] {
   left: 120px;
   transition: all 1s ease;
 }
+
+/* ~ 是一种CSS选择器，它可以选择紧邻在某个元素后面的元素，不管它们是否有相同的父元素 */
 #check-1:checked ~ .active {
   transform: translateX(0px);
 }
