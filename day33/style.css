@@ -20,7 +20,7 @@
   left: 52px;
   background: #ffd93c;
   border-radius: 50%;
-  /* alternate */
+  /* alternate 动画在每个循环中正反交替播放*/
   animation: moveRight 60s linear infinite alternate both;
 }
 
