@@ -41,8 +41,6 @@
   width: 100%;
   height: auto;
 }
-.away {
-}
 
 .pic.active {
   animation: big 0.5s ease-in-out both;
