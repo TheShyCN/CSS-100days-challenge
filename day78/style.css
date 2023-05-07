@@ -1,0 +1,44 @@
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  transform: translate(-50%, -50%);
+  background: #3498db;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.button {
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  background: #fff;
+  color: #34495e;
+  left: 100px;
+  font-size: 18px;
+  line-height: 58px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: none;
+}
+
+.button-1 {
+  top: 80px;
+}
+
+.button-2 {
+  top: 170px;
+}
+
+.button-3 {
+  top: 260px;
+}
+
+.button:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 2px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
